@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.app_form{
+  padding: 20px;
+ position: fixed;
+ bottom: 20px;
+ z-index: 1;
+ background-color: #e9e9eb;
+ background-color: transparent !important;
+
+ width: 100%;
+ margin: 20px;
+}
+.app_formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app_Input{
+ flex: 0.95;
+}
+.app_IconButton{
+  flex: 0;
+}
+.h_tag{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+  color: rgb(76, 76, 211);
+}
+h1{
+  font-family: 'Courier New', Courier, monospace;
+}
